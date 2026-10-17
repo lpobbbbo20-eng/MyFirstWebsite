@@ -1,0 +1,275 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>موقعي الشخصي | عبده عصام</title>
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+
+margin: 0;
+font-family: Arial, sans-serif;
+background-color: #0b1120;
+color: #f8fafc;
+
+        }
+
+       header {
+    background-color: #080e1c;
+    color: #ffffff;
+    padding: 22px 8%;
+    text-align: center;
+    border-bottom: 1px solid #263755;
+}
+
+        
+header h2 {
+    margin: 0;
+    color: #38bdf8;
+    font-size: 24px;
+    letter-spacing: 0.5px;
+}
+
+        .hero {
+          
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(135deg, #111c35, #172554);
+    border-bottom: 1px solid #263755;
+}
+
+        }
+
+        
+.hero h1 {
+    color: #ffffff;
+    font-size: 42px;
+    margin-bottom: 18px;
+    text-shadow: 0 0 25px #38bdf833;
+}
+
+        
+.hero p {
+    color: #cbd5e1;
+    font-size: 19px;
+    line-height: 1.9;
+    max-width: 650px;
+    margin: 0 auto;
+}
+
+        
+button {
+    background: linear-gradient(135deg, #2563eb, #06b6d4);
+    color: #ffffff;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 15px;
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px #06b6d455;
+}
+
+        button:hover {
+    background-color: #0d3b70;
+}
+        .skills {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        
+.skills h2 {
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 12px;
+    text-shadow: 0 0 18px #38bdf822;
+}
+
+        .cards {
+            display: flex;
+            justify-content: center;
+            gap: 18px;
+            flex-wrap: wrap;
+            margin-top: 25px;
+        }
+
+        .card {
+            background-color: #111c35;
+            padding: 25px;
+            border-radius: 14px;
+            width: 220px;
+            box-shadow: 0 4px 15px #000000;
+        }
+.card {
+    transition: 0.3s;
+}
+        .card:hover {
+    transform: translateY(-6px);
+    border-color: #38bdf8;
+}
+        .
+.card h3 {
+    color: #38bdf8;
+    margin-top: 0;
+    font-size: 22px;
+}
+
+        footer {
+            background-color: #102a43;
+            color: rgb(176, 208, 234);
+            text-align: center;
+            padding: 18px;
+            margin-top: 30px;
+        }
+    
+.projects {
+    padding: 50px 20px;
+    text-align: center;
+    border-top: 1px solid #263755;
+}
+
+.projects h2 {
+    color: #ffffff;
+    font-size: 30px;
+}
+
+.projects-intro {
+    color: #cbd5e1;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.project-tag {
+    display: inline-block;
+    margin-top: 12px;
+    color: #38bdf8;
+    font-size: 13px;
+}
+</style>
+</head>
+
+<body>
+
+    <header>
+        <h2>عبدالرحمن عصام | موقعي الشخصي</h2>
+    </header>
+
+    <section class="hero">
+        <h1>أهلاً، أنا عبدالرحمن عصام 👋</h1>
+
+        <p id="intro">
+            أنا بتعلم البرمجة وتطوير المواقع،
+            وببني أول مشاريعي بنفسي.
+        </p>
+
+        <button id="changeBtn">اعرف أكتر عني</button>
+        <button id="themeBtn">غيّر شكل الموقع 🌙</button>
+    </section>
+
+    <section class="skills">
+        <h2>المهارات اللي بتعلمها</h2>
+
+        <div class="cards">
+            <div class="card">
+                <h3>HTML</h3>
+                <p>بناء محتوى وهيكل صفحات الويب.</p>
+            </div>
+
+            <div class="card">
+                <h3>CSS</h3>
+                <p>تنسيق المواقع والألوان والتصميم.</p>
+            </div>
+
+            <div class="card">
+                <h3>JavaScript</h3>
+                <p>إضافة التفاعل والحركة للمواقع.</p>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="projects" id="projects">
+        <h2>مشاريعي</h2>
+        <p class="projects-intro">
+            دي المشاريع اللي بشتغل عليها وأنا بتعلم تطوير الويب.
+        </p>
+
+        <div class="cards">
+            <div class="card">
+                <h3>موقعي الشخصي</h3>
+                <p>أول موقع بعمله باستخدام HTML وCSS وJavaScript.</p>
+                <span class="project-tag">HTML · CSS · JavaScript</span>
+            </div>
+
+            <div class="card">
+                <h3>المشروع القادم</h3>
+                <p>هنا هضيف مشروعي الجديد لما أخلصه.</p>
+                <span class="project-tag">قريبًا 🚀</span>
+            </div>
+        </div>
+    </section>  
+    
+
+    <section class="projects" id="contact">
+        <h2>خلينا نتواصل 👋</h2>
+        <p class="projects-intro">
+            عندك فكرة لموقع؟ أو حابب تتواصل معايا؟
+            يسعدني أسمع منك!
+        </p>
+
+        <a href="https://wa.me/201065392242" target="_blank"
+           class="contact-btn">
+            تواصل معايا على واتساب
+        </a>
+    </section>
+
+    <footer>
+        <p>أول مشاريعي في عالم البرمجة 🚀</p>
+    </footer>
+    <script>
+        const button = document.querySelector("#changeBtn");
+        const intro = document.querySelector("#intro");
+
+        button.addEventListener("click", function() {
+            intro.textContent =
+                "هدفي إني أتعلم البرمجة وأبني مواقع احترافية بنفسي! 💪";
+
+            button.textContent = "أنا مكمل في التعلم 🚀";
+        });
+    
+const themeBtn = document.querySelector("#themeBtn");
+
+let isLight = false;
+
+themeBtn.addEventListener("click", function() {
+    if (isLight === false) {
+        document.body.style.backgroundColor = "#f1f5f9";
+        document.body.style.color = "#0f172a";
+        themeBtn.textContent = "الوضع الغامق 🌙";
+        isLight = true;
+    } else {
+        document.body.style.backgroundColor = "#0b1120";
+        document.body.style.color = "#f8fafc";
+        themeBtn.textContent = "الوضع الفاتح ☀️";
+        isLight = false;
+    }
+});
+
+    </script>
+
+</body>
+</html>
